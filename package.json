@@ -1,0 +1,19 @@
+{
+  "name": "pxlsrt-cli",
+  "version": "1.0.0",
+  "description": "Pixel sort images from the command line.",
+  "main": "index.js",
+  "repository": "https://github.com/czycha/pxlsrt-cli",
+  "author": "czycha",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "jimp": "0.2.27",
+    "pxlsrt": "^1.1.1",
+    "yargs": "^11.0.0"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "pxlsrt": "./index.js"
+  }
+}
